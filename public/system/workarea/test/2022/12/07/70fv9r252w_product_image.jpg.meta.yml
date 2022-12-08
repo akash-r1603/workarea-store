@@ -1,0 +1,4 @@
+---
+name: product_image.jpg
+model_class: Workarea::Fulfillment::Sku
+model_attachment: file

@@ -1,0 +1,45 @@
+[
+{
+  "_type": "Workarea::Pricing::Discount::FreeGift",
+  "_id": "6390825dfece167b90a44388",
+  "active": true,
+  "active_segment_ids": [
+
+  ],
+  "allow_sale_items": true,
+  "auto_deactivate": true,
+  "auto_deactivated_at": null,
+  "category_ids": [
+
+  ],
+  "compatible_discount_ids": [
+
+  ],
+  "created_at": null,
+  "excluded_category_ids": [
+
+  ],
+  "excluded_product_ids": [
+
+  ],
+  "generated_codes_id": null,
+  "name": "json Free Gift",
+  "order_total": null,
+  "order_total_operator": "greater_than",
+  "product_ids": [
+
+  ],
+  "promo_codes": [
+
+  ],
+  "single_use": false,
+  "sku": "SKU123",
+  "tags": [
+
+  ],
+  "updated_at": null,
+  "user_tags": [
+
+  ]
+}
+]

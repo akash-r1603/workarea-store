@@ -1,0 +1,3 @@
+_id,created_at,updated_at,tags,active_segment_ids,active,slug,details_Material,details_Style,name,filters_Material,filters_Style,template,customizations,browser_title,meta_description,description,purchasable,default_category_id,digital,copied_from_id,variants_id,variants_created_at,variants_updated_at,variants_active_segment_ids,variants_active,variants_position,variants_name,variants_sku
+1D55A30814,2022-12-07 12:08:56 UTC,2022-12-07 12:08:57 UTC,"","",true,test-product,Cotton,12345,Test Product,Cotton,12345,generic,,,,,true,,false,,63908258fece167b90a44337,,,"",true,0,SKU,SKU
+B76B0FCA53,2022-12-07 12:08:56 UTC,2022-12-07 12:08:57 UTC,"","",true,test-product-1,Cotton,12345,Test Product,Cotton,12345,generic,,,,,true,,false,,63908258fece167b90a44340,,,"",true,0,SKU,SKU

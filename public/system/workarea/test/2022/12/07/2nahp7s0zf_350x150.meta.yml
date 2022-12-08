@@ -1,0 +1,5 @@
+---
+name: 350x150
+mime_type: image/png
+model_class: Workarea::DataFile::CsvTest::Bazzet
+model_attachment: image

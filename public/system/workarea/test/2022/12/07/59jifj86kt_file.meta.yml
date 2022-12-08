@@ -1,0 +1,3 @@
+---
+model_class: Workarea::Catalog::ProductImage
+model_attachment: image

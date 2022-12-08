@@ -1,0 +1,4 @@
+---
+name: foo20221207-97168-htuaf5.csv
+model_class: Workarea::DataFile::Import
+model_attachment: file

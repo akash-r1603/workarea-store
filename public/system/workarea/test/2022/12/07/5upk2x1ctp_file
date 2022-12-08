@@ -1,0 +1,3 @@
+_id,created_at,updated_at,name,local,payment_,validated_field,bars_id,bars_created_at,bars_updated_at,bars_name,bars_array,bars_ignore,bars_type,baz_id,baz_created_at,baz_updated_at,baz_name
+639080dffece167b90a432f9,,,,,,,639080dffece167b90a432fa,,,1,,,Workarea::DataFile::CsvTest::Bar,639080dffece167b90a432fb,,,3
+639080dffece167b90a432f9,,,,,,,639080dffece167b90a432fc,,,2,,,Workarea::DataFile::CsvTest::Bar,,,,

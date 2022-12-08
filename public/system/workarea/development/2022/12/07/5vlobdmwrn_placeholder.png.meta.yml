@@ -1,0 +1,4 @@
+---
+name: placeholder.png
+model_class: Workarea::Content::Asset
+model_attachment: file

@@ -1,0 +1,2 @@
+_id,created_at,updated_at,tags,active_segment_ids,active,name,compatible_discount_ids,excluded_category_ids,excluded_product_ids,single_use,allow_sale_items,auto_deactivate,auto_deactivated_at,_type,order_total_operator,order_total,promo_codes,generated_codes_id,user_tags,sku,product_ids,category_ids
+6390825dfece167b90a44391,,,"","",true,csv Free Gift,"","","",false,true,true,,Workarea::Pricing::Discount::FreeGift,greater_than,,"",,"",SKU123,"",""

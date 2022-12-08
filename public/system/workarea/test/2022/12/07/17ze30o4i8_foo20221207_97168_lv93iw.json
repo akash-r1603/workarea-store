@@ -1,0 +1,106 @@
+[
+{
+  "_type": "Workarea::Catalog::Product",
+  "_id": "1D55A30814",
+  "active": true,
+  "active_segment_ids": [
+
+  ],
+  "browser_title": null,
+  "copied_from_id": null,
+  "created_at": "2022-12-07 12:08:56 UTC",
+  "customizations": null,
+  "default_category_id": null,
+  "description": null,
+  "details": {
+    "Material": [
+      "Cotton"
+    ],
+    "Style": [
+      "12345"
+    ]
+  },
+  "digital": false,
+  "filters": {
+    "Material": "Cotton",
+    "Style": "12345"
+  },
+  "meta_description": null,
+  "name": "Test Product",
+  "purchasable": true,
+  "slug": "test-product",
+  "tags": [
+
+  ],
+  "template": "generic",
+  "updated_at": "2022-12-07 12:08:56 UTC",
+  "variants": [
+    {
+      "_id": "63908258fece167b90a44337",
+      "active": true,
+      "active_segment_ids": [
+
+      ],
+      "created_at": null,
+      "details": {
+      },
+      "name": "SKU",
+      "position": 0,
+      "sku": "SKU",
+      "updated_at": null
+    }
+  ]
+},
+{
+  "_type": "Workarea::Catalog::Product",
+  "_id": "B76B0FCA53",
+  "active": true,
+  "active_segment_ids": [
+
+  ],
+  "browser_title": null,
+  "copied_from_id": null,
+  "created_at": "2022-12-07 12:08:56 UTC",
+  "customizations": null,
+  "default_category_id": null,
+  "description": null,
+  "details": {
+    "Material": [
+      "Cotton"
+    ],
+    "Style": [
+      "12345"
+    ]
+  },
+  "digital": false,
+  "filters": {
+    "Material": "Cotton",
+    "Style": "12345"
+  },
+  "meta_description": null,
+  "name": "Test Product",
+  "purchasable": true,
+  "slug": "test-product-1",
+  "tags": [
+
+  ],
+  "template": "generic",
+  "updated_at": "2022-12-07 12:08:56 UTC",
+  "variants": [
+    {
+      "_id": "63908258fece167b90a44340",
+      "active": true,
+      "active_segment_ids": [
+
+      ],
+      "created_at": null,
+      "details": {
+      },
+      "name": "SKU",
+      "position": 0,
+      "sku": "SKU",
+      "updated_at": null
+    }
+  ]
+}
+]

@@ -1,0 +1,3 @@
+_id,created_at,updated_at,name,local,payment_,validated_field,baz_id,baz_created_at,baz_updated_at,baz_name,baz_hash_test_foo,baz_hash_test_bar
+639080e1fece167b90a4331c,2022-12-07 12:02:41 UTC,2022-12-07 12:02:41 UTC,,,,,639080e1fece167b90a4331d,,,,"1,2",
+639080e1fece167b90a4331e,2022-12-07 12:02:41 UTC,2022-12-07 12:02:41 UTC,,,,,639080e1fece167b90a4331f,,,,,"3,4"

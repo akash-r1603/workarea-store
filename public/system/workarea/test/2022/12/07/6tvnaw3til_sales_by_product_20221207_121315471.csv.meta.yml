@@ -1,0 +1,4 @@
+---
+name: sales_by_product_20221207-121315471.csv
+model_class: Workarea::Reports::Export
+model_attachment: file
