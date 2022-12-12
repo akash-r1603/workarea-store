@@ -9,15 +9,5 @@ module Workarea
     # While calling super to extend a test case is possible, it is
     # recommended that you add a new test or completely override an
     # existing test to avoid ambiguity in your test suite.
-
-    def test_new_skues
-      product = create_product
-
-      product.variants.create!(
-          { sku: 'SKU1', details: { color: ['Red'] }, new_arrival: true }
-      )
-
-      assert_equal(true, product.new_skues)
-    end
   end
 end
