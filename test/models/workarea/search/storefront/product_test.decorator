@@ -17,7 +17,9 @@ module Workarea
           { sku: 'SKU1', details: { color: ['Red'] }, new_arrival: true }
       )
 
-      assert_equal(true, product.new_skues)
+      view_model = Workarea::Storefront::ProductViewModel.wrap(product)
+
+      assert_equal(true, view_model.new_skues)
     end
   end
 end
