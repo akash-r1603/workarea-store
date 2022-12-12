@@ -1,0 +1,26 @@
+module Workarea
+  decorate Storefront::ProductViewModel, with: :workarea_store do
+    decorated do
+      # Place code to decorate here that would normally go on the class
+      # level, e.g.:
+      #
+      #     field :name, type: String
+    end
+
+    class_methods do
+      # Place methods to define on the class level here. These methods
+      # will be available by calling Storefront::ProductViewModel.your_method. Do
+      # not prefix these methods with `self.`
+    end
+
+
+
+    def new_skues
+      variants.map(&:new_arrival).include? true
+    end
+
+    # Instance methods can go right in the main definition of the
+    # decorator, as it is a module that gets prepended into the class of
+    # your choice.
+  end
+end
