@@ -24,7 +24,6 @@
 
   .view
     .product-detail-container{ data: { analytics: product_view_analytics_data(@product).to_json } }
-
       .product-details{ class: "product-details--#{@product.template}" }
         = render "workarea/storefront/products/templates/#{@product.template}", product: @product
 
@@ -34,6 +33,9 @@
           .product-detail-container__description-body!= @product.description
 
       = append_partials('storefront.product_description', product: @product)
+      %span.override-this
+        %h2
+          ="This #{@product.name} view has been modified"
 
       - if @product.recommendations.any?
         .recommendations
