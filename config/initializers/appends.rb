@@ -9,3 +9,8 @@ Workarea.append_partials(
   'workarea/storefront/products/new_arrival'
 )
 
+
+Workarea.append_partials(
+  'storefront.product_pricing_details',
+  'workarea/storefront/products/sale_widget'
+)
