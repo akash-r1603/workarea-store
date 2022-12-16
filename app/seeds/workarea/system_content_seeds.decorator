@@ -1,0 +1,31 @@
+module Workarea
+  decorate SystemContentSeeds, with: :workarea_store do
+    decorated do
+      # Place code to decorate here that would normally go on the class
+      # level, e.g.:
+      #
+      #     field :name, type: String
+    end
+
+    class_methods do
+      # Place methods to define on the class level here. These methods
+      # will be available by calling SystemContentSeeds.your_method. Do
+      # not prefix these methods with `self.`
+    end
+
+    def add_layout_content
+      super
+      html = '<span style="background: yellow;">Footer Messaging Content</span>'
+      content = Content.for('Layout')
+      content.blocks.create!(
+        area: 'footer_messaging',
+        type: 'html',
+        data: { html: html }
+      )
+    end
+
+    # Instance methods can go right in the main definition of the
+    # decorator, as it is a module that gets prepended into the class of
+    # your choice.
+  end
+end

@@ -7,4 +7,6 @@ Workarea.configure do |config|
     'development' => 'localhost',
     'production' => 'www.my-store.com' # TODO
   }[Rails.env]
+
+  config.content_areas['layout'] << 'footer_messaging'
 end
