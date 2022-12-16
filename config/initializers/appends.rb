@@ -9,3 +9,7 @@ Workarea.append_partials(
   'workarea/storefront/products/new_arrival'
 )
 
+Workarea.append_partials(
+  'storefront.utility_nav',
+  'layouts/workarea/storefront/footer_messaging_content'
+)
